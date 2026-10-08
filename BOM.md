@@ -8,7 +8,7 @@
 
 | Week | Tier | Parts funding |
 | --- | --- | --- |
-| Week 1 | Tier 1 | $30.00 |
+| Week 1 | Tier 2 | $65.00 |
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
@@ -21,4 +21,4 @@
 | **Tax & shipping** | — | — | — | **$0.00** | — |
 | **Total** | — | — | — | **$23.13** | — |
 
-$6.87 left of the tier's funding.
+$41.87 left of the tier's funding.
