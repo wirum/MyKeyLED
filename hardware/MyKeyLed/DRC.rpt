@@ -1,0 +1,166 @@
+** Drc report for MyKeyLed.kicad_pcb **
+** Created on 2026-10-08T09:33:10 **
+** Report includes: Errors, Warnings **
+
+** Found 6 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuração da serigrafia da placa; warning
+    @(150.0000 mm, 76.4000 mm): Segment on Edge.Cuts
+    @(150.6500 mm, 81.0000 mm): Segment of U1 on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuração da serigrafia da placa; warning
+    @(150.0000 mm, 76.4000 mm): Segment on Edge.Cuts
+    @(150.6500 mm, 90.0000 mm): Segment of U1 on B.Silkscreen
+[lib_footprint_mismatch]: O footprint 'MODULE_ESP32-C3_SUPERMINI_TH' não corresponde à cópia na biblioteca 'ESP32-C3_SUPERMINI_TH'
+    Local override; warning
+    @(138.0000 mm, 85.5000 mm): Footprint U1
+[lib_footprint_mismatch]: O footprint 'LCDWiki_MSP1803_34.5x58mm' não corresponde à cópia na biblioteca 'MyKeyLED_Local'
+    Local override; warning
+    @(120.0000 mm, 129.5000 mm): Footprint U2
+[lib_footprint_mismatch]: O footprint 'MT3608_Module_37x17mm' não corresponde à cópia na biblioteca 'MyKeyLED_Local'
+    Local override; warning
+    @(126.5000 mm, 121.0000 mm): Footprint MT3608_MODULE1
+[lib_footprint_mismatch]: O footprint 'TP4056_USB-C_Protected_26x17mm' não corresponde à cópia na biblioteca 'MyKeyLED_Local'
+    Local override; warning
+    @(102.7500 mm, 139.0000 mm): Footprint TP4056_MODULE1
+
+** Found 32 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.5400 mm, 120.6100 mm): PTH pad J2.1 [+3V3] of U2
+    @(93.5400 mm, 138.3900 mm): PTH pad J2.8 [+3V3] of U2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.8200 mm, 77.8800 mm): PTH pad 3.3 [+3V3] of U1
+    @(93.5400 mm, 120.6100 mm): PTH pad J2.1 [+3V3] of U2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(94.0000 mm, 101.2500 mm): PTH pad 1 [GND] of PS_CHANGE1
+    @(106.5000 mm, 101.2500 mm): PTH pad 1 [GND] of PS_CHANGE1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(94.0000 mm, 101.2500 mm): PTH pad 1 [GND] of PS_CHANGE1
+    @(93.5400 mm, 123.1500 mm): PTH pad J2.2 [GND] of U2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.5000 mm, 101.2500 mm): PTH pad 1 [GND] of PS_CHANGE1
+    @(112.0000 mm, 101.2500 mm): PTH pad 1 [GND] of PS_CONFIG1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(111.2500 mm, 124.2500 mm): PTH pad 2 [GND] of MT3608_MODULE1
+    @(114.4800 mm, 131.8200 mm): PTH pad 4 [GND] of TP4056_MODULE1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(111.2500 mm, 124.2500 mm): PTH pad 2 [GND] of MT3608_MODULE1
+    @(93.5400 mm, 123.1500 mm): PTH pad J2.2 [GND] of U2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.0000 mm, 101.2500 mm): PTH pad 1 [GND] of PS_CONFIG1
+    @(124.5000 mm, 101.2500 mm): PTH pad 1 [GND] of PS_CONFIG1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.0000 mm, 101.2500 mm): PTH pad 1 [GND] of PS_ON/OFF1
+    @(124.5000 mm, 101.2500 mm): PTH pad 1 [GND] of PS_CONFIG1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.0000 mm, 101.2500 mm): PTH pad 1 [GND] of PS_ON/OFF1
+    @(142.5000 mm, 101.2500 mm): PTH pad 1 [GND] of PS_ON/OFF1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.5000 mm, 101.2500 mm): PTH pad 1 [GND] of PS_ON/OFF1
+    @(141.7500 mm, 124.2500 mm): PTH pad 4 [GND] of MT3608_MODULE1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.3600 mm, 77.8800 mm): PTH pad G [GND] of U1
+    @(142.5000 mm, 101.2500 mm): PTH pad 1 [GND] of PS_ON/OFF1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.5400 mm, 125.6900 mm): PTH pad J2.3 [/TFT_CS] of U2
+    @(142.8200 mm, 93.1200 mm): PTH pad 7 [/TFT_CS] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.5400 mm, 128.2300 mm): PTH pad J2.4 [/TFT_RST] of U2
+    @(132.6600 mm, 93.1200 mm): PTH pad 20 [/TFT_RST] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.5400 mm, 130.7700 mm): PTH pad J2.5 [/TFT_DC] of U2
+    @(137.7400 mm, 77.8800 mm): PTH pad 3 [/TFT_DC] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.5400 mm, 133.3100 mm): PTH pad J2.6 [/SPI_MOSI] of U2
+    @(146.4600 mm, 128.2300 mm): PTH pad J4.2 [/SPI_MOSI] of U2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.4600 mm, 128.2300 mm): PTH pad J4.2 [/SPI_MOSI] of U2
+    @(147.9000 mm, 93.1200 mm): PTH pad 5 [/SPI_MOSI] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.5400 mm, 135.8500 mm): PTH pad J2.7 [/SPI_SCK] of U2
+    @(146.4600 mm, 133.3100 mm): PTH pad J4.4 [/SPI_SCK] of U2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.4600 mm, 133.3100 mm): PTH pad J4.4 [/SPI_SCK] of U2
+    @(140.2800 mm, 77.8800 mm): PTH pad 4 [/SPI_SCK] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.2000 mm, 93.1200 mm): PTH pad 10 [/SD_CS] of U1
+    @(146.4600 mm, 125.6900 mm): PTH pad J4.1 [/SD_CS] of U2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.3600 mm, 93.1200 mm): PTH pad 6 [/SPI_MISO] of U1
+    @(146.4600 mm, 130.7700 mm): PTH pad J4.3 [/SPI_MISO] of U2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.0000 mm, 106.2500 mm): PTH pad 2 [/PS_ON/OFF] of PS_ON/OFF1
+    @(142.5000 mm, 106.2500 mm): PTH pad 2 [/PS_ON/OFF] of PS_ON/OFF1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.1200 mm, 77.8800 mm): PTH pad 0 [/PS_ON/OFF] of U1
+    @(130.0000 mm, 106.2500 mm): PTH pad 2 [/PS_ON/OFF] of PS_ON/OFF1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.0000 mm, 106.2500 mm): PTH pad 2 [/PS_CONFIG] of PS_CONFIG1
+    @(124.5000 mm, 106.2500 mm): PTH pad 2 [/PS_CONFIG] of PS_CONFIG1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.5000 mm, 106.2500 mm): PTH pad 2 [/PS_CONFIG] of PS_CONFIG1
+    @(132.6600 mm, 77.8800 mm): PTH pad 1 [/PS_CONFIG] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(94.0000 mm, 106.2500 mm): PTH pad 2 [/PS_CHANGE] of PS_CHANGE1
+    @(106.5000 mm, 106.2500 mm): PTH pad 2 [/PS_CHANGE] of PS_CHANGE1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.5000 mm, 106.2500 mm): PTH pad 2 [/PS_CHANGE] of PS_CHANGE1
+    @(130.1200 mm, 93.1200 mm): PTH pad 21 [/PS_CHANGE] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(111.2500 mm, 117.7500 mm): PTH pad 1 [/BOOST_IN+] of MT3608_MODULE1
+    @(123.7700 mm, 144.5000 mm): PTH pad 2 [/BOOST_IN+] of SW_POWER1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.7500 mm, 117.7500 mm): PTH pad 3 [+5V] of MT3608_MODULE1
+    @(147.9000 mm, 77.8800 mm): PTH pad 5V [+5V] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.4800 mm, 146.1800 mm): PTH pad 3 [/TP_OUT+] of TP4056_MODULE1
+    @(121.2300 mm, 144.5000 mm): PTH pad 1 [/TP_OUT+] of SW_POWER1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.4800 mm, 143.0100 mm): PTH pad 1 [/BAT+] of TP4056_MODULE1
+    @(121.2500 mm, 136.5200 mm): PTH pad 1 [/BAT+] of BATTERY_1S1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.4800 mm, 134.9900 mm): PTH pad 2 [/BAT-] of TP4056_MODULE1
+    @(121.2500 mm, 133.9800 mm): PTH pad 2 [/BAT-] of BATTERY_1S1
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

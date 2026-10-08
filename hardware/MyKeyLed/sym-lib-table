@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MyKeyLED_Local") (type "KiCad") (uri "${KIPRJMOD}/libraries/MyKeyLED_Local.kicad_sym") (options "") (descr "Biblioteca local vazia; componentes aguardam validacao pelo usuario"))
+)
